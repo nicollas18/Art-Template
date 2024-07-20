@@ -11,45 +11,47 @@
 <body>
     <header>
         <nav>
-            <a href="#art">My Art</a>
+            <a href="#art" class="title">My Art</a>
             <a href="#about">About</a>
         </nav>
     </header>
     <main>
-        <div class="container-img">
-            <div class="img">
-                
+        <div id="art" class="container-img">
+            <div class="img active" style="background-image: url(images/img1.jpg);">
+                <p>Arte 1</p>
             </div>
-            <div class="img">
-                
+            <div class="img " style="background-image: url(images/img2.jpg);">
+                <p>Arte 2</p>
             </div>
-            <div class="img">
-                
+            <div class="img " style="background-image: url(images/img3.jpg);">
+                <p>Arte 3</p>
             </div>
-            <div class="img">
-                
+            <div class="img " style="background-image: url(images/img4.jpg);">
+                <p>Arte 4</p>
             </div>
-            <div class="img">
-                
+            <div class="img " style="background-image: url(images/img5.jpg);">
+                <p>Arte 5</p>
             </div>
         </div>
 
-        <div class="about">
-            <h2>About</h2>
-            <img src="" alt="">
-            <p>
-                Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
-            </p>
-            <h3>Do not hesitate to contact me!</h3>
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <label for="message">Message</label>
-                <input type="text" name="message" id="message">
-                <input type="submit" value="Send">
-            </form>
+        <div class="container-about">
+            <div id="about" class="about">
+                <h2>About</h2>
+                <img src="images/boy.jpg" alt="Autor">
+                <p>
+                    Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </p>
+                <h3>Do not hesitate to contact me!</h3>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <label for="message">Message</label>
+                    <input type="text" name="message" id="message">
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
         </div>
     </main>
     <footer>
